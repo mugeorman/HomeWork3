@@ -1,0 +1,3 @@
+don't forget to create repository in github ,
+give the same name as project and connect with local repository
+and commit
