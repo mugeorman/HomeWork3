@@ -23,7 +23,8 @@ public class TestCase8 {
       public void verifyMessageDisplayed(){
 
           driver.findElement(By.linkText("Autocomplete")).click();
-          driver.findElement(By.id("myCountry")).sendKeys("United States of America", Keys.ENTER);
+          driver.findElement(By.id("myCountry")).sendKeys("United States of America");
+          driver.findElement(By.xpath("//input[@type='button']")).click();
 
           BrowserUtilities.wait(3);
 
